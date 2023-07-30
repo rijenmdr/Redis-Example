@@ -1,0 +1,13 @@
+{
+  "name": "redis-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "redis": "redis-server --port 6380 --slaveof 127.0.0.1 6379"
+  },
+  "author": "",
+  "license": "ISC"
+}
